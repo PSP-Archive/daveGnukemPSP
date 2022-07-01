@@ -1,0 +1,45 @@
++------------------------------------------------------------------+
+|          System log file for 08/08/2004  15:33:08                |
++------------------------------------------------------------------+
+
+
+
+================[ Starting Application Init ]===============
+DaveStartup(): Initializing graphics system ...
+Setting up pixel conversion attributes...:
+	[RGBA]Mask: 0xff0000; 0xff00; 0xff 0x0
+	[RGBA]Shift: 0x10; 0x8; 0x0 0x0
+[Debug] C:\DJSource\DaveGnukem\DaveGnukem\src\djimage.cpp line 212: djImage::LoadTGA(data/font.tga)
+[Error] C:\DJSource\DaveGnukem\DaveGnukem\src\djimage.cpp line 219: djImage::LoadTGA(data/font.tga): Couldn't open file
+
+================[ Starting Application Kill ]===============
+KillMainMenu() ok
+KillMissionSystem() ok
+KillLevelSystem() ok
+KillCredits() ok
+GameFinalCleanup() ok
+SaveHighScores() ok
+djiDone() ok
+djSoundDone() ok
+delete pImgMain ok
+[Debug] C:\DJSource\DaveGnukem\DaveGnukem\src\djimage.cpp line 102: djImage::~djImage()
+GraphDone() ok
+djTimeDone() ok
+g_Settings.Save(CONFIG_FILE) ok
+================[ Application Kill Complete ]===============
+
+[Debug] C:\DJSource\DaveGnukem\DaveGnukem\src\menu.cpp line 199: CMenu::~CMenu (main.cpp:mainMenu)
+[Debug] C:\DJSource\DaveGnukem\DaveGnukem\src\menu.cpp line 206: CMenu::~CMenu ()ok
+[Debug] C:\DJSource\DaveGnukem\DaveGnukem\src\menu.cpp line 207: TODO: items and cursor are not deleted b/c in most cases the yare static strings. May need some changes later
+[Debug] C:\DJSource\DaveGnukem\DaveGnukem\src\menu.cpp line 199: CMenu::~CMenu (instructions.cpp:instructionsMenu)
+[Debug] C:\DJSource\DaveGnukem\DaveGnukem\src\menu.cpp line 206: CMenu::~CMenu ()ok
+[Debug] C:\DJSource\DaveGnukem\DaveGnukem\src\menu.cpp line 207: TODO: items and cursor are not deleted b/c in most cases the yare static strings. May need some changes later
+[Debug] C:\DJSource\DaveGnukem\DaveGnukem\src\menu.cpp line 199: CMenu::~CMenu (highscores.cpp:HighScoresMenu)
+[Debug] C:\DJSource\DaveGnukem\DaveGnukem\src\menu.cpp line 206: CMenu::~CMenu ()ok
+[Debug] C:\DJSource\DaveGnukem\DaveGnukem\src\menu.cpp line 207: TODO: items and cursor are not deleted b/c in most cases the yare static strings. May need some changes later
+[Debug] C:\DJSource\DaveGnukem\DaveGnukem\src\menu.cpp line 199: CMenu::~CMenu (game.cpp:gameMenu)
+[Debug] C:\DJSource\DaveGnukem\DaveGnukem\src\menu.cpp line 206: CMenu::~CMenu ()ok
+[Debug] C:\DJSource\DaveGnukem\DaveGnukem\src\menu.cpp line 207: TODO: items and cursor are not deleted b/c in most cases the yare static strings. May need some changes later
+[Debug] C:\DJSource\DaveGnukem\DaveGnukem\src\menu.cpp line 199: CMenu::~CMenu (credits.cpp:creditsMenu)
+[Debug] C:\DJSource\DaveGnukem\DaveGnukem\src\menu.cpp line 206: CMenu::~CMenu ()ok
+[Debug] C:\DJSource\DaveGnukem\DaveGnukem\src\menu.cpp line 207: TODO: items and cursor are not deleted b/c in most cases the yare static strings. May need some changes later
